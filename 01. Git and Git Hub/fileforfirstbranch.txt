@@ -1,0 +1,2 @@
+It is discouraged to directly make changes to main branch so the brances are created and
+after making sure everything is working correctly it is then merged with main branch.
