@@ -30,7 +30,7 @@ print(np.random.rand())
 print(np.random.randn(25))
 
 # Generate a Matrix using Linespace
-print(np.linspace(0,1,101))
+print((np.arange(1,101)/100).reshape(10,10))
 
 # Generate a Matrix using 20 Linary spaced variables
 # b/w 0 ans 1
