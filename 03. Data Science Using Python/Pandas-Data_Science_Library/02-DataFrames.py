@@ -84,7 +84,4 @@ print(tipsdata.loc[rowstofetch]) # Providing variable
 
 # Removing Rows
 print(tipsdata.drop("Sun2959"))
-# print(tipsdata.drop(0)) # Not Possible if we have labeled Index in DataFrame 
-new_row = ["Sun0001",9.72,0.45,"Male","No","Lunch",3,np.round(9.72/3,2),"Simon Altwal",5678489054122376]
-df = tipsdata._append(new_row)
-print(df)
+# print(tipsdata.drop(0)) # Not Possible if we have labeled Index in DataFrame
