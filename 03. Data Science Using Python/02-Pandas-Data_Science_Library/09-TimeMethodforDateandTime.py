@@ -33,11 +33,11 @@ print("mydate2 :",pd.to_datetime(mydate2,dayfirst=True))
 print("mydate3:",pd.to_datetime(mydate3,format="%b %d,%Y"))
 print("mydate4:",pd.to_datetime(mydate4))
 
-sales = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\RetailSales_BeerWineLiquor.csv")
+sales = pd.read_csv("./Excel Files/RetailSales_BeerWineLiquor.csv")
 print(sales["DATE"])
 sales["DATE"] = pd.to_datetime(sales["DATE"])
 print(sales["DATE"])
-sales1 = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\RetailSales_BeerWineLiquor.csv",parse_dates=[0])
+sales1 = pd.read_csv("./Excel Files/RetailSales_BeerWineLiquor.csv",parse_dates=[0])
 print(sales1["DATE"])
 print(sales1["DATE"].dt.year)
 

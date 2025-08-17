@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-hotels = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\hotel_booking_data.csv")
+hotels = pd.read_csv("./Excel Files/hotel_booking_data.csv")
 print(hotels.head())
 
 ## Count Number of Rows/Observations in Hotel Datframe

@@ -11,7 +11,7 @@ print("My First Pandas Python Dataframe:\n",df)
 
 ### Reading from CSV File ###
 
-tipsdata = pd.read_csv("tips.csv")
+tipsdata = pd.read_csv("./Excel Files/tips.csv")
 # print("My First Pandas Python Dataframe through csv files:\n",tipsdata)
 
 ### Get the Column Names

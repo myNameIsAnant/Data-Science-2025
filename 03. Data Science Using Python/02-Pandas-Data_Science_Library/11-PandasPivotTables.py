@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\Sales_Funnel_CRM.csv")
+df = pd.read_csv("./Excel Files/Sales_Funnel_CRM.csv")
 print(df)
 licenses = df[["Company","Product","Licenses"]]
 print(licenses)

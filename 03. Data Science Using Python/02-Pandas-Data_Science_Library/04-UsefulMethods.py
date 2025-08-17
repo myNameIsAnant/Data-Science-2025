@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-tipsdata = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\tips.csv")
+tipsdata = pd.read_csv("./Excel Files/tips.csv")
 # tipsdata["MaskedCard"] = tipsdata["CC Number"] % 10000
 # print(tipsdata.head())
 
@@ -45,7 +45,7 @@ print(tipsdata)
 
 ### Describing and Sorting
 
-tipsdata = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\tips.csv")
+tipsdata = pd.read_csv("./Excel Files/tips.csv")
 
 print(tipsdata.describe()) ## To get Stats of all numeric columns in dataframe
 print(tipsdata.transpose()) ## To transpose the data

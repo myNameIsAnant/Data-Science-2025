@@ -13,7 +13,7 @@ print(df)
 ## Filtering by Single Condition
 print(df[df["Maths"]>80])
 
-tipsdata = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\tips.csv")
+tipsdata = pd.read_csv("./Excel Files/tips.csv")
 bigbill = tipsdata["total_bill"] > 40
 print(tipsdata[bigbill])
 

@@ -6,7 +6,7 @@ import timeit
 setup = """
 import numpy as np
 import pandas as pd
-tipsdata = pd.read_csv("tips.csv")
+tipsdata = pd.read_csv("./Excel Files/tips.csv")
 def quality(total_bill,tip):
     if tip/total_bill > 0.25:
         return "Generous"

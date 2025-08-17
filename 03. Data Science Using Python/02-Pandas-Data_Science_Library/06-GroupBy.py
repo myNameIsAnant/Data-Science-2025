@@ -6,7 +6,7 @@ mydata = [["A",10],["A",5],["B",2],["B",4],["C",12],["C",6]]
 df_new = pd.DataFrame(data=mydata,columns=cols)
 print(df_new)
 
-mpgdata = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\mpg.csv")
+mpgdata = pd.read_csv("./Excel Files/mpg.csv")
 print(mpgdata.info())
 
 # Grouping by  1 Columns

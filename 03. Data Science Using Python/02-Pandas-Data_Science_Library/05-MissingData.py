@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-moviescores = pd.read_csv("C:\\Users\\anant\\OneDrive\\Desktop\\Data Science\\03. Data Science Using Python\\Pandas-Data_Science_Library\\movie_scores.csv")
+moviescores = pd.read_csv("./Excel Files/movie_scores.csv")
 print(moviescores)
 
 def dataSetup():
