@@ -1,7 +1,7 @@
 import random
 
 chosennos = random.randint(1,101)
-print(chosennos)
+# print(chosennos)
 
 """
 def usrpick(start,end):
@@ -29,6 +29,6 @@ def guessGame():
     
     return f"You Lost!!! Your weren't able to guess the Chosen Number {chosennos}. You guessed {usrchoice}. Try Again!!!"
 
-print(guessGame())    
+print(guessGame())
 
 
