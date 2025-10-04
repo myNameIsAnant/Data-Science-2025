@@ -14,7 +14,7 @@ X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
 from sklearn.linear_model import ElasticNet
-baseModel = ElasticNet(max_iter=1000000)
+baseModel = ElasticNet(max_iter=10 ** 6)
 
 parameterGrid = {"alpha":[0.1,1,5,10,100],
                  "l1_ratio":[0.1,0.7,0.99,1]}
@@ -29,10 +29,10 @@ gridModel.fit(X_train,y_train)
 print(gridModel.best_params_)
 yPredicted = gridModel.predict(X_test)
 
-from sklearn.metrics import mean_squared_error,root_mean_squared_error
-MSE = mean_squared_error(y_test,yPredicted)
+from sklearn.metrics import mean_absolute_error,root_mean_squared_error
+MAE = mean_absolute_error(y_test,yPredicted)
 RMSE= root_mean_squared_error(y_test,yPredicted)
-MSE = np.round(MSE,3)
+MSE = np.round(MAE,3)
 RMSE = np.round(RMSE,3)
 print(MSE)
 print(RMSE)
